@@ -1,0 +1,20 @@
+{
+  "name": "job-scheduler",
+  "version": "1.0.0",
+  "description": "An application that schedules the job under given constraints",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "author": "Dinesh Palanisamy",
+  "license": "ISC"
+}
