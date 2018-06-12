@@ -16,7 +16,7 @@ var JobStore = function() {
         }
     }
 
-    // get the value for the input key
+    // get the job details for the given job
     this.get = function(job_name) {
         if (!job_name) {
             throw Error("ArgumentException")
@@ -26,6 +26,7 @@ var JobStore = function() {
         return null;
     }
 
+    //returns the entire store
     this.getStore = function() {
       return store;
     }

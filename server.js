@@ -1,3 +1,6 @@
+/**
+ * Module dependencies.
+ */
 var express = require('express'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
@@ -5,7 +8,9 @@ var express = require('express'),
     JobStore = require('./api/models/jobStore'),
     ProcessorStore = require('./api/models/processorStore');
 
-
+/**
+ *  Server Configuration
+ */
 var Server = function() {
 
     app = express();
